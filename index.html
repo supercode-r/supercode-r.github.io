@@ -3,66 +3,449 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Divyesh Jagetia - Portfolio</title>
+    <title>Divyesh Jagetia | ML Researcher</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Divyesh Jagetia</h1>
-        <p>ML Researcher | AI Innovator | Boston, MA</p>
-        <nav>
-            <a href="mailto:jagetiadivyesh@gmail.com">Email</a> |
-            <a href="https://linkedin.com/in/divyeshjagetia" target="_blank">LinkedIn</a> |
-            <a href="https://github.com/supercode-r" target="_blank">GitHub</a>
-        </nav>
+        <div class="container">
+            <nav>
+                <div class="logo">DJ</div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#research">Research</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
+
+            <div class="hero">
+                <div class="hero-content">
+                    <h1>Divyesh Jagetia</h1>
+                    <h2>Machine Learning Researcher</h2>
+                    <p>ML Researcher with 6+ years of experience and M.Sc. in Computer Science. Expertise in AI innovation, LLMs, and scalable ML solutions. Committed to delivering business impact through fair and responsible AI, with a proven history of successful products.</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn primary-btn">Contact Me</a>
+                        <a href="#research" class="btn secondary-btn">View My Research</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-placeholder">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
 
-    <section class="about">
-        <h2>About Me</h2>
-        <p>I'm a Machine Learning Researcher with 6+ years of experience and an M.Sc. in Computer Science from Boston University. I specialize in AI innovation, LLMs, and scalable ML solutions, delivering impactful products through responsible AI.</p>
-    </section>
-
-    <section class="experience">
-        <h2>Experience</h2>
-        <div class="job">
-            <h3>Machine Learning Research Scientist | Arrow Electronics, USA</h3>
-            <p>May 2021 - Present</p>
-            <ul>
-                <li>Built NLP models (BERT, GPT) for sentiment analysis, optimizing supply chain with ranking networks.</li>
-                <li>Led a team of 5 to develop a recommender system, driving $170M in business impact.</li>
-                <li>Deployed scalable ML using TensorRT and Kubeflow.</li>
-            </ul>
-        </div>
-        <div class="job">
-            <h3>Graduate Research Assistant | Boston University, USA</h3>
-            <p>Jan 2020 - May 2021</p>
-            <ul>
-                <li>Developed a reinforcement learning simulation game to study user impulsivity.</li>
-                <li>Taught CS 521 (Python), designing assignments.</li>
-            </ul>
-        </div>
-    </section>
-
-    <section class="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>3x3 Rubik’s Cube Solver</h3>
-            <p>AI agent using computer vision and reinforcement learning; sub-2-second solve time.</p>
-        </div>
-        <div class="project">
-            <h3>Autonomous Driving System | MIT</h3>
-            <p>Built a remote vehicle with camera-based detection, improving safety by 35%.</p>
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p>I'm a Machine Learning Research Scientist with expertise in developing and deploying advanced AI models. My passion lies in creating scalable ML solutions that deliver tangible business impact while adhering to ethical AI principles.</p>
+                <p>Currently at Arrow Electronics, I lead AI initiatives that drive innovation through cross-functional collaboration. My experience spans various domains of artificial intelligence, including Natural Language Processing, Computer Vision, and Graph Neural Networks.</p>
+                <p>I hold a Master's degree in Computer Science from Boston University, where I specialized in machine learning and statistical modeling. My research thesis focused on Expectation-Maximization clustering of multi-variate α-stable elliptical distributions.</p>
+            </div>
+            <div class="about-highlights">
+                <div class="highlight-item">
+                    <i class="fas fa-brain"></i>
+                    <h3>ML Research</h3>
+                    <p>Deep expertise in transformers, LLMs, and cutting-edge AI models</p>
+                </div>
+                <div class="highlight-item">
+                    <i class="fas fa-cogs"></i>
+                    <h3>AI Deployment</h3>
+                    <p>Experience scaling ML models for production environments</p>
+                </div>
+                <div class="highlight-item">
+                    <i class="fas fa-balance-scale"></i>
+                    <h3>Ethical AI</h3>
+                    <p>Committed to responsible AI development and governance</p>
+                </div>
+                <div class="highlight-item">
+                    <i class="fas fa-users"></i>
+                    <h3>Leadership</h3>
+                    <p>Proven track record of leading ML research teams</p>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section class="education">
-        <h2>Education</h2>
-        <p><strong>M.Sc. in Computer Science</strong> | Boston University (2021) | GPA: 3.87/4.00</p>
-        <p><strong>B.E. in Electronics and Telecommunication</strong> | MIT, India (2018) | GPA: 8.11/10.00</p>
+    <section id="experience" class="experience-section">
+        <div class="container">
+            <h2 class="section-title">Professional Experience</h2>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">
+                        <p>May 2021 - Present</p>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Machine Learning Research Scientist</h3>
+                        <h4>Arrow Electronics, USA</h4>
+                        <ul>
+                            <li>Built and deployed high-precision NLP models (BERT, LSTM) for sentiment analysis on large-scale news data</li>
+                            <li>Engineered Graph Neural Networks (GNNs) with GraphSAGE, DeepWalk and Node2Vec for advanced graph learning applications</li>
+                            <li>Reviewed AI governance policies, ensuring ethical compliance and responsible AI development</li>
+                            <li>Led a team of 5 researchers to develop a recommender system and conversational search using LLMs</li>
+                            <li>Led AI use-case prioritization workshops to maximize business impact worth $170M</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">
+                        <p>Jan 2020 - May 2021</p>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Graduate Research & Teaching Assistant</h3>
+                        <h4>Boston University, USA</h4>
+                        <ul>
+                            <li>Built a simulation game to research users' impulsivity and drug influence using casual inference and reinforcement learning</li>
+                            <li>Teaching Assistant for Graduate course CS 521 - Information Structures with Python</li>
+                            <li>Designed assignments, exams, and guided students through complex programming concepts</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">
+                        <p>June 2018 - Dec 2019</p>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Robotic Research Intern</h3>
+                        <h4>Defense Research & Development Organization, India</h4>
+                        <ul>
+                            <li>Developed deep learning-based real-time video processing for an Autonomous Holonomic Robot</li>
+                            <li>Optimized vision-based object tracking using YOLO, Kalman Filters and path planning</li>
+                            <li>Improved detection accuracy by 40% for military surveillance applications</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">
+                        <p>June 2017 - May 2018</p>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Software Engineer Intern</h3>
+                        <h4>Timely, India</h4>
+                        <ul>
+                            <li>Designed and executed test automation pipelines, reducing defect detection time by 25%</li>
+                            <li>Performed regression testing and quality assessment</li>
+                            <li>Enhanced database management and overall application performance</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="research" class="research-section">
+        <div class="container">
+            <h2 class="section-title">Research Projects</h2>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Multi-Agent Connected Autonomous Driving</h3>
+                    <p class="project-organization">Boston University | A Chavez</p>
+                    <p>Addressed challenges of partial observability and learning distribution in centralized reinforcement learning for autonomous vehicles at traffic intersections. Compared Q-Learning and Partially Observable Markov Game approaches using MACAD-Gym platform (CARLA).</p>
+                    <div class="project-links">
+                        <a href="https://drive.google.com/file/d/1equJmrjHbYVp63uMHy1YTIBjSb2sBnfE/view?usp=drive_link" target="_blank"><i class="fas fa-file-pdf"></i> View Research</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <h3>Visually Grounded Neural Syntax Acquisition</h3>
+                    <p class="project-organization">Boston University | David A Tofu</p>
+                    <p>Researched state-of-art approach in multilingual unsupervised ground parsing. Improved performance for low-resource languages by demonstrating that visually grounded syntax acquisition can benefit from cross-lingual performance using hybrid image-caption pairs.</p>
+                    <div class="project-links">
+                        <a href="https://drive.google.com/file/d/1oYFpn2JjSlHbQ43wHg6qfNxpeT6i4xtJ/view?usp=drive_link" target="_blank"><i class="fas fa-file-pdf"></i> View Research</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <h3>Consistent Hashing with Bounded Loads</h3>
+                    <p class="project-organization">Boston University | Dr. Belyaev</p>
+                    <p>Implemented a solution to overcome the cascading effect on Consistent hashing caused by increasing load, reducing latency by 22%. Designed fast min-max consistent hashing for balanced client-server dynamic allocation, improving scalability under high traffic.</p>
+                    <div class="project-links">
+                        <a href="https://docs.google.com/presentation/d/10NBcsVO_EOSMxLl1DK33u6WciwsuDm11/edit?usp=drive_link&ouid=116959440746724449238&rtpof=true&sd=true" target="_blank"><i class="fas fa-file-powerpoint"></i> View Presentation</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <h3>3 x 3 Rubik's Cube Solver</h3>
+                    <p class="project-organization">Boston University</p>
+                    <p>Developed an AI agent to solve a Rubik's cube using Constraint Propagation, depth-first, back tracking and reinforcement learning. Scanned a scrambled cube through computer vision, achieving sub-2-second solve time, outperforming CNN-based approaches.</p>
+                    <div class="project-links">
+                        <a href="https://youtu.be/N5uPsddBdPo?si=eTgzMsTaSnIHx9fV&t=10" target="_blank"><i class="fab fa-youtube"></i> Watch Demo</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <h3>Electronic Components Obsolescence Forecasting</h3>
+                    <p class="project-organization">Arrow + MIT | Prof. Dr. Amar Gupta</p>
+                    <p>Analyzed important attributes using PCA, linear and logistic regression analysis on temporal data to extrapolate with 98% accuracy. Performed classification analysis using various machine learning techniques to predict supply chain life impact.</p>
+                    <div class="project-links">
+                        <a href="https://scholar.google.com/citations?user=WTbMjhkAAAAJ&hl=en" target="_blank"><i class="fas fa-graduation-cap"></i> View Citation</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <h3>Autonomous Driving System</h3>
+                    <p class="project-organization">MIT</p>
+                    <p>Developed a remote vehicle to drive autonomously by imitating the front vehicle in a sophisticated urban environment. Agent consisted of camera which detected brake lights and Raspberry Pi to simultaneously control motion, improving safety by 35%.</p>
+                    <div class="project-links">
+                        <a href="https://youtu.be/s4MH7lAzEz4?si=v_-fySYfZW8oc7NG" target="_blank"><i class="fab fa-youtube"></i> Watch Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="education-section">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            
+            <div class="education-container">
+                <div class="education-item">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-details">
+                        <h3>Master of Science in Computer Science</h3>
+                        <h4>Boston University | 2021</h4>
+                        <p class="education-gpa">GPA: 3.87/4.00</p>
+                        <p class="education-thesis">
+                            <strong>Thesis:</strong> Expectation-Maximization clustering of multi-variate α-stable elliptical distributions
+                            <a href="https://drive.google.com/file/d/19I2RqTgBoKe962byRsSSGDnjJQpnmovU/view?usp=drive_link" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="education-item">
+                    <div class="education-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <div class="education-details">
+                        <h3>Bachelor of Engineering in Electronics and Telecommunication</h3>
+                        <h4>Maharashtra Institute of Technology | 2018</h4>
+                        <p class="education-gpa">GPA: 8.11/10.00</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="certifications">
+                <h3>Certifications</h3>
+                <div class="certification-items">
+                    <div class="certification-item">
+                        <i class="fas fa-certificate"></i>
+                        <p>Self-Driving Car Engineer, Udacity</p>
+                    </div>
+                    <div class="certification-item">
+                        <i class="fas fa-certificate"></i>
+                        <p>Machine Learning, Coursera</p>
+                    </div>
+                    <div class="certification-item">
+                        <i class="fas fa-certificate"></i>
+                        <p>Satellite Communication, IIT</p>
+                    </div>
+                    <div class="certification-item">
+                        <i class="fas fa-certificate"></i>
+                        <p>ML Ops & Scalable ML, Google</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">Python</div>
+                        <div class="skill-item">C++</div>
+                        <div class="skill-item">Java</div>
+                        <div class="skill-item">R</div>
+                        <div class="skill-item">MySQL</div>
+                        <div class="skill-item">Rust</div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Frameworks & Libraries</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">PyTorch</div>
+                        <div class="skill-item">TensorFlow</div>
+                        <div class="skill-item">Keras</div>
+                        <div class="skill-item">Jax</div>
+                        <div class="skill-item">QLoRA</div>
+                        <div class="skill-item">TinyML</div>
+                        <div class="skill-item">CUDA</div>
+                        <div class="skill-item">TensorRT</div>
+                        <div class="skill-item">MLflow</div>
+                        <div class="skill-item">DALLE</div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Large Language Models</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">Grok3</div>
+                        <div class="skill-item">DeepSeek-R1</div>
+                        <div class="skill-item">GPT4</div>
+                        <div class="skill-item">EXAONE3</div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Edge AI</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">NVIDIA Jetson</div>
+                        <div class="skill-item">ONNX Edge TPU</div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Domain Expertise</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">Robot Learning and Vision</div>
+                        <div class="skill-item">Data Science</div>
+                        <div class="skill-item">DBMS</div>
+                        <div class="skill-item">Computer Language Theory</div>
+                        <div class="skill-item">Robotics</div>
+                        <div class="skill-item">Optimization</div>
+                        <div class="skill-item">Operating Systems</div>
+                        <div class="skill-item">OOP</div>
+                        <div class="skill-item">Data Structures and Algorithms</div>
+                        <div class="skill-item">Deep Learning</div>
+                        <div class="skill-item">Generative AI</div>
+                        <div class="skill-item">Statistical Learning Theory</div>
+                        <div class="skill-item">ML for Healthcare</div>
+                        <div class="skill-item">Agentic AI</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p><a href="mailto:jagetiadivyesh@gmail.com">jagetiadivyesh@gmail.com</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <p><a href="tel:16179706863">+1 (617) 970-6863</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Boston, MA, USA</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <p><a href="http://www.linkedin.com/in/divyeshjagetia" target="_blank">linkedin.com/in/divyeshjagetia</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <p><a href="https://github.com/supercode-r" target="_blank">github.com/supercode-r</a></p>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
     </section>
 
     <footer>
-        <p>&copy; 2025 Divyesh Jagetia</p>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Divyesh Jagetia. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="http://www.linkedin.com/in/divyeshjagetia" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/supercode-r" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
     </footer>
+
+    <script>
+        // Mobile navigation
+        const burger = document.querySelector('.burger');
+        const nav = document.querySelector('.nav-links');
+        
+        burger.addEventListener('click', () => {
+            nav.classList.toggle('nav-active');
+            burger.classList.toggle('toggle');
+        });
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+                
+                // Close mobile menu if open
+                if (nav.classList.contains('nav-active')) {
+                    nav.classList.remove('nav-active');
+                    burger.classList.remove('toggle');
+                }
+            });
+        });
+        
+        // Form submission (can be connected to a backend later)
+        const contactForm = document.getElementById('contactForm');
+        
+        contactForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your message! This form is not connected to a backend yet.');
+            contactForm.reset();
+        });
+    </script>
 </body>
 </html>
