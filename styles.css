@@ -100,15 +100,18 @@ body {
     display: flex;
     align-items: center;
     position: relative;
+    padding: 20px 0;
 }
 .hero-content {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    width: 100%;
 }
 .hero-text {
     max-width: 50%;
+    padding: 0 20px;
 }
 .hero-text h1 {
     font-size: 3.5rem;
@@ -125,11 +128,13 @@ body {
 .hero-description { font-size: 1.1rem; margin: 20px 0; }
 .hero-buttons .btn {
     padding: 12px 25px;
-    margin-right: 15px;
+    margin: 10px 15px 10px 0; /* Adjusted margin for better spacing */
     text-decoration: none;
     border-radius: 25px;
     font-weight: 600;
     transition: transform 0.3s, background 0.3s;
+    display: inline-flex; /* Ensures icon and text align */
+    align-items: center;
 }
 .primary-btn {
     background: #e94560;
@@ -140,15 +145,21 @@ body {
     border: 2px solid #e94560;
     color: #e94560;
 }
+.resume-btn { /* New style for Resume button */
+    background: #00d4ff;
+    color: #1a1a2e;
+}
 .btn:hover { transform: scale(1.05); }
+.btn i { margin-right: 8px; }
 .hero-image {
     max-width: 40%;
-    position: relative;
+    text-align: center;
 }
 .tech-orbit {
     width: 300px;
     height: 300px;
     position: relative;
+    margin: 0 auto;
 }
 .tech-icon {
     position: absolute;
@@ -276,7 +287,7 @@ body {
     position: relative;
 }
 .timeline-icon {
-    position: absolute;
+    position: relative;
     top: 20px;
     left: -50px;
     width: 40px;
