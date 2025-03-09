@@ -163,7 +163,7 @@ body {
 .tech-icon:nth-child(3) { bottom: 25%; right: 0; }
 .tech-icon:nth-child(4) { bottom: 0; left: 50%; transform: translateX(-50%); }
 .tech-icon:nth-child(5) { top: 25%; left: 0; }
-.tech-icon:nth-child(5) { bottom: 25%; left: 0; }
+.tech-icon:nth-child(6) { bottom: 25%; left: 0; }
 
 .profile {
     position: absolute;
