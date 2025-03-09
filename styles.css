@@ -204,8 +204,8 @@ body {
 }
 .about-image { max-width: 40%; }
 .profile-img {
-    width: 100%;
-    height: 100%;
+    width: 10%;
+    height: 10%;
     object-fit: cover;
     border-radius: 50%;
 }
@@ -326,12 +326,24 @@ body {
     background-size: cover;
     background-position: center;
 }
-.autonomous-driving-bg { background-image: url('https://via.placeholder.com/300x200?text=Autonomous+Driving'); }
-.nlp-bg { background-image: url('https://via.placeholder.com/300x200?text=NLP'); }
-.distributed-systems-bg { background-image: url('https://via.placeholder.com/300x200?text=Distributed+Systems'); }
-.rubiks-bg { background-image: url('https://via.placeholder.com/300x200?text=Rubiks+Cube'); }
-.forecasting-bg { background-image: url('https://via.placeholder.com/300x200?text=Forecasting'); }
-.autonomous-driving2-bg { background-image: url('https://via.placeholder.com/300x200?text=Autonomous+Driving+2'); }
+.autonomous-driving-bg {
+    background-image: url('/autonomous-driving.jpg');
+}
+.nlp-bg {
+    background-image: url('/nlp-syntax.jpg');
+}
+.distributed-systems-bg {
+    background-image: url('/distributed-systems.jpg');
+}
+.rubiks-bg {
+    background-image: url('/rubiks-cube.jpg');
+}
+.forecasting-bg {
+    background-image: url('/forecasting-chart.jpg');
+}
+.autonomous-driving2-bg {
+    background-image: url('/autonomous-driving2.jpg');
+}
 .project-overlay {
     position: absolute;
     top: 0;
