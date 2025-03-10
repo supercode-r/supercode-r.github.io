@@ -448,11 +448,12 @@ body {
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
+@media (max-width: 959px) {
     .container {
         width: 100%; /* Ensure full width on mobile */
         margin: 0 auto;
-        padding: 0 20px; /* Increase padding for consistent spacing */
+        padding: 0 20px;
+        position: relative;/* Increase padding for consistent spacing */
     }
     .navbar .container { flex-wrap: wrap; width: 100%; }
     .nav-menu {
