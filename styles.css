@@ -209,7 +209,7 @@ body {
     gap: 30px;
     align-items: center;
 }
-.about-image { flex: 1; min-width: 200px; align-items: flex-start;}
+.about-image { min-width: 200px; align-items: center;}
 .image-border {
     padding: 10px;
     background: linear-gradient(135deg, #e94560, #0f3460);
@@ -477,7 +477,7 @@ body {
         position: static; /* Remove absolute positioning on mobile */
         transform: none; /* Remove the centering transform */
         margin-top: 10px;
-        align-text: center; /* Add more space to ensure it’s below the icons */}
+        align-items: center; /* Add more space to ensure it’s below the icons */}
     .about { padding_top: 100px; padding: 40px 0; }
     .about-content { flex-direction: column; }
     .about-image, .about-text { text-align: center; }
