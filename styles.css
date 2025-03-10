@@ -161,10 +161,10 @@ body {
     border-radius: 50%;
     animation: floatPulse 3s ease-in-out infinite;
 }
-.tech-icon:nth-child(1) { top: 0; transform: translateX(-50%); animation-delay: 0s; }
+.tech-icon:nth-child(1) { top: 0; left: 50%; animation-delay: 0s; }
 .tech-icon:nth-child(2) { top: 25%; right: 0; animation-delay: 0.5s; }
 .tech-icon:nth-child(3) { bottom: 25%; right: 0; animation-delay: 1s; }
-.tech-icon:nth-child(4) { bottom: 0; transform: translateX(-50%); animation-delay: 1.5s; }
+.tech-icon:nth-child(4) { bottom: 0; left: 45%; transform: translateX(-50%); animation-delay: 1.5s; }
 .tech-icon:nth-child(5) { top: 25%; left: 0; animation-delay: 2s; }
 .tech-icon:nth-child(6) { bottom: 25%; left: 0; animation-delay: 2.5s; }
 .profile {
