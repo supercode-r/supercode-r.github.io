@@ -474,19 +474,18 @@ body {
     .menu-toggle.active .bar:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
     .menu-toggle.active .bar:nth-child(2) { opacity: 0; }
     .menu-toggle.active .bar:nth-child(3) { transform: rotate(-45deg) translate(5px, -5px); }
-    .hero { padding: 100px 0; width: 100%;}
+    .hero { padding: 100px 0; width: 100%; left: 0;}
     .hero-text h1 { font-size: 2.2rem; }
     .hero-text h2 { font-size: 1.4rem; }
     .hero-description { font-size: 1rem; }
-    .tech-orbit { width: 200px; height: 200px;}
+    .tech-orbit { width: 100%; height: 200px;}
     .tech-icon { font-size: 1.2rem; padding: 10px;  }
     .profile { font-size: 3.5rem; }
-    .profile .particle { width: 6px; height: 6px;  }
+    .profile .particle { width: 100%; height: 6px;  }
     .scroll-down {
         position: static; /* Remove absolute positioning on mobile */
         transform: none; /* Remove the centering transform */
         margin-top: 80px;
-        margin-bottom: 0;
         text-align: center; /* Add more space to ensure it’s below the icons */}
     .about { padding: 100px 0; width: 100%; }
     .about-content { flex-direction: column; }
