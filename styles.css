@@ -55,7 +55,7 @@ body {
     padding: 15px 0;
     z-index: 1000;
     transition: background 0.3s;
-    height: auto;
+    height: 80px;
 }
 .navbar .container {
     display: flex;
@@ -202,13 +202,13 @@ body {
 .underline { width: 60px; height: 4px; background: #e94560; margin: 10px auto; }
 
 /* About Section */
-.about { padding: 60px 0; }
+.about { padding: 60px 0;}
 .about-content {
+    flex: 0 3 auto;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
     align-items: center;
-    flex: 0 0 70%;
 }
 .about-image { flex: 1; min-width: 200px; align-items: flex-start;}
 .image-border {
