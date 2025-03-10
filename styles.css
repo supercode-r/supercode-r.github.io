@@ -55,7 +55,7 @@ body {
     padding: 15px 0;
     z-index: 1000;
     transition: background 0.3s;
-    height: 60px;
+    height: 70px;
 }
 .navbar .container {
     display: flex;
@@ -202,7 +202,7 @@ body {
 .underline { width: 60px; height: 4px; background: #e94560; margin: 10px auto; }
 
 /* About Section */
-.about { padding: 60px 0;     margin_left: 0; }
+.about { padding: 60px 0; }
 .about-content {
     display: flex;
     flex-wrap: wrap;
