@@ -170,9 +170,9 @@ body {
 .tech-icon:nth-child(6) { top: 30%; left: 0%; animation-delay: 2.5s; }
 .profile {
     position: absolute;
-    top: 63%;
-    left: 63%;
-    transform: translate(-63%, -63%);
+    top: 60%;
+    left: 60%;
+    transform: translate(-60%, -60%);
     font-size: 5rem;
     color: #fff;
     animation: glow 2s ease-in-out infinite;
@@ -190,7 +190,7 @@ body {
 .profile .particle:nth-child(3) { bottom: -20px; left: 50%; animation-delay: 2s; }
 .scroll-down {
     position: absolute;
-    bottom: auto;
+    bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -453,13 +453,16 @@ body {
         max-width: 100%; /* Ensure full width on mobile */
         padding: 0 20px; /* Increase padding for consistent spacing */
     }
-    .navbar .container { flex-wrap: wrap; max-width: 100%; }
+    .navbar{
+        max-width: 100%
+    }
+    .navbar .container { flex-wrap: wrap; max-width: 100% }
     .nav-menu {
         display: none;
         position: static;
         top: 60px;
         left: 0;
-        max-width: 100%;
+        width: 100%;
         background: #1a1a2e;
         flex-direction: column;
         padding: 20px 0;
@@ -478,15 +481,15 @@ body {
     .hero-text h1 { font-size: 2.2rem; }
     .hero-text h2 { font-size: 1.4rem; }
     .hero-description { font-size: 1rem; }
-    .tech-orbit { width: 200px; height: 200px; }
+    .tech-orbit { width: 200px; height: 200px; text-align: center;}
     .tech-icon { font-size: 1.2rem; padding: 10px; text-align: center;  }
-    .profile { font-size: 3.5rem; }
-    .profile .particle { width: 6px; height: 6px; }
+    .profile { font-size: 3.5rem; text-align: center; }
+    .profile .particle { width: 6px; height: 6px; text-align: center; }
     .scroll-down {
         position: static; /* Remove absolute positioning on mobile */
         transform: none; /* Remove the centering transform */
         margin-top: 30px;
-        margin-bottom: 20px;
+        margin-bottom: 0;
         text-align: center; /* Add more space to ensure it’s below the icons */}
     .about { padding_top: 100px; padding: 100px 0; }
     .about-content { flex-direction: column; }
