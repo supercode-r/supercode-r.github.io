@@ -162,17 +162,17 @@ body {
     border-radius: 50%;
     animation: floatPulse 3s ease-in-out infinite;
 }
-.tech-icon:nth-child(1) { top: 10%; left: 45%; animation-delay: 0s; }
-.tech-icon:nth-child(2) { top: 30%; left: 90%; animation-delay: 0.5s; }
-.tech-icon:nth-child(3) { top: 60%; left: 90%; animation-delay: 1s; }
-.tech-icon:nth-child(4) { top: 80%; left: 45%; animation-delay: 1.5s; }
+.tech-icon:nth-child(1) { top: 10%; left: 50%; animation-delay: 0s; }
+.tech-icon:nth-child(2) { top: 30%; left: 100%; animation-delay: 0.5s; }
+.tech-icon:nth-child(3) { top: 60%; left: 100%; animation-delay: 1s; }
+.tech-icon:nth-child(4) { top: 80%; left: 50%; animation-delay: 1.5s; }
 .tech-icon:nth-child(5) { top: 60%; left: 0%; animation-delay: 2s; }
 .tech-icon:nth-child(6) { top: 30%; left: 0%; animation-delay: 2.5s; }
 .profile {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 60%;
+    left: 60%;
+    transform: translate(-60%, -60%);
     font-size: 5rem;
     color: #fff;
     animation: glow 2s ease-in-out infinite;
@@ -190,7 +190,7 @@ body {
 .profile .particle:nth-child(3) { bottom: -20px; left: 50%; animation-delay: 2s; }
 .scroll-down {
     position: absolute;
-    bottom: 20px;
+    bottom: auto;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -485,7 +485,7 @@ body {
     .scroll-down {
         position: static; /* Remove absolute positioning on mobile */
         transform: none; /* Remove the centering transform */
-        bottom: 5px;
+        bottom: auto;
         margin-top: 30px;
         text-align: center; /* Add more space to ensure it’s below the icons */}
     .about { padding_top: 100px; padding: 100px 0; }
