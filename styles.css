@@ -450,7 +450,8 @@ body {
 /* Responsive Design */
 @media (max-width: 768px) {
     .container {
-        width: 100%; /* Ensure full width on mobile */
+        max-width: 768px; /* Ensure full width on mobile */
+        margin: 0 auto;
         padding: 0 20px; /* Increase padding for consistent spacing */
     }
     .navbar .container { flex-wrap: wrap; width: 100%; }
