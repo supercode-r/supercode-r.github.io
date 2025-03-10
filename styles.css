@@ -226,7 +226,7 @@ body {
 .highlight { color: #e94560; font-weight: 600; }
 .about-stats {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
     margin-top: 20px;
