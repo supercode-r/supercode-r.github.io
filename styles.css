@@ -202,7 +202,7 @@ body {
 .underline { width: 60px; height: 4px; background: #e94560; margin: 10px auto; }
 
 /* About Section */
-.about { padding_top: 100px; padding: 60px 0;}
+.about { padding_top: 100px; padding: 100px 0;}
 .about-content {
     display: flex;
     flex-wrap: wrap;
@@ -252,7 +252,7 @@ body {
 .card-icon { font-size: 2rem; color: #e94560; margin-bottom: 15px; }
 
 /* Experience Section */
-.experience { padding_top: 100px; padding: 60px 0; background: #f4f4f4; }
+.experience { padding_top: 100px; padding: 100px 0; background: #f4f4f4; }
 .timeline { max-width: 900px; margin: 0 auto; }
 .timeline-item {
     background: #fff;
@@ -284,7 +284,7 @@ body {
 .timeline-list i { margin-right: 10px; color: #e94560; }
 
 /* Research Section */
-.research { padding_top: 100px; padding: 60px 0; }
+.research { padding_top: 100px; padding: 100px 0; }
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -332,7 +332,7 @@ body {
 .project-link i { margin-right: 5px; }
 
 /* Education Section */
-.education { padding_top: 100px; padding: 60px 0; background: #f4f4f4; }
+.education { padding_top: 100px; padding: 100px 0; background: #f4f4f4; }
 .education-main { margin-bottom: 30px; }
 .education-card {
     display: flex;
@@ -366,7 +366,7 @@ body {
 .cert-icon { font-size: 1.5rem; color: #e94560; margin-bottom: 10px; }
 
 /* Skills Section */
-.skills { padding_top: 100px; padding: 60px 0; }
+.skills { padding_top: 100px; padding: 100px 0; }
 .skills-container { max-width: 1000px; margin: 0 auto; }
 .skills-category { margin-bottom: 30px; }
 .category-title {
@@ -485,20 +485,21 @@ body {
     .scroll-down {
         position: static; /* Remove absolute positioning on mobile */
         transform: none; /* Remove the centering transform */
+        bottom: 5px;
         margin-top: 30px;
         text-align: center; /* Add more space to ensure it’s below the icons */}
-    .about { padding_top: 100px; padding: 40px 0; }
+    .about { padding_top: 100px; padding: 100px 0; }
     .about-content { flex-direction: column; }
     .about-image, .about-text { text-align: center; }
     .profile-img { width: 200px; height: 200px; }
-    .experience { padding_top: 100px; padding: 40px 0; }
+    .experience { padding_top: 100px; padding: 100px 0; }
     .timeline-content { padding-left: 0; }
     .timeline-icon { position: static; margin: 0 auto 15px; }
     .timeline-content { text-align: center; }
-    .research { padding_top: 100px; padding: 40px 0; }
-    .education { padding_top: 100px; padding: 40px 0; }
+    .research { padding_top: 100px; padding: 100px 0; }
+    .education { padding_top: 100px; padding: 100px 0; }
     .education-card { flex-direction: column; text-align: center; }
-    .skills { padding_top: 100px; padding: 40px 0; }
+    .skills { padding_top: 100px; padding: 100px 0; }
     .contact { padding_top: 100px; padding: 40px 0; }
     .contact-info { flex-direction: column; }
 }
