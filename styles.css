@@ -146,14 +146,14 @@ body {
     color: #e94560;
 }
 .resume-btn { /* New style for Resume button */
-    background: #00d4ff;
-    color: #1a1a2e;
+    background: #e94560;
+    color: #fff;
 }
 .btn:hover { transform: scale(1.05); }
 .btn i { margin-right: 8px; }
 .hero-image {
     max-width: 40%;
-    text-align: center;
+    position: relative;
 }
 .tech-orbit {
     width: 300px;
@@ -162,7 +162,7 @@ body {
     margin: 0 auto;
 }
 .tech-icon {
-    position: absolute;
+    position: relative;
     font-size: 1.5rem;
     color: #e94560;
     background: rgba(255, 255, 255, 0.1);
