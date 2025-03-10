@@ -170,9 +170,9 @@ body {
 .tech-icon:nth-child(6) { top: 30%; left: 0%; animation-delay: 2.5s; }
 .profile {
     position: absolute;
-    top: 60%;
-    left: 60%;
-    transform: translate(-60%, -60%);
+    top: 63%;
+    left: 63%;
+    transform: translate(-63%, -63%);
     font-size: 5rem;
     color: #fff;
     animation: glow 2s ease-in-out infinite;
@@ -453,13 +453,13 @@ body {
         max-width: 100%; /* Ensure full width on mobile */
         padding: 0 20px; /* Increase padding for consistent spacing */
     }
-    .navbar .container { flex-wrap: wrap; }
+    .navbar .container { flex-wrap: wrap; max-width: 100%; }
     .nav-menu {
         display: none;
         position: static;
         top: 60px;
         left: 0;
-        width: 100%;
+        max-width: 100%;
         background: #1a1a2e;
         flex-direction: column;
         padding: 20px 0;
@@ -479,14 +479,14 @@ body {
     .hero-text h2 { font-size: 1.4rem; }
     .hero-description { font-size: 1rem; }
     .tech-orbit { width: 200px; height: 200px; }
-    .tech-icon { font-size: 1.2rem; padding: 8px; }
+    .tech-icon { font-size: 1.2rem; padding: 10px; text-align: center;  }
     .profile { font-size: 3.5rem; }
     .profile .particle { width: 6px; height: 6px; }
     .scroll-down {
         position: static; /* Remove absolute positioning on mobile */
         transform: none; /* Remove the centering transform */
-        bottom: auto;
         margin-top: 30px;
+        margin-bottom: 20px;
         text-align: center; /* Add more space to ensure it’s below the icons */}
     .about { padding_top: 100px; padding: 100px 0; }
     .about-content { flex-direction: column; }
