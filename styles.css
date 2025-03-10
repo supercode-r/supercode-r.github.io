@@ -456,7 +456,7 @@ body {
     .navbar .container { flex-wrap: wrap; }
     .nav-menu {
         display: none;
-        position: absolute;
+        position: static;
         top: 60px;
         left: 0;
         width: 100%;
@@ -467,7 +467,8 @@ body {
     .nav-menu.active { display: flex; }
     .nav-link {
         font-size: 1.5rem; /* Increase font size for better readability */
-        padding: 15px 0; /* Add padding for bigger touch area */
+        padding: 15px 0;
+        padding-left: 25px;/* Add padding for bigger touch area */
     }
     .menu-toggle { display: flex; }
     .menu-toggle.active .bar:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
