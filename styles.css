@@ -165,7 +165,7 @@ body {
 .tech-icon:nth-child(1) { top: 10%; left: 45%; animation-delay: 0s; }
 .tech-icon:nth-child(2) { top: 30%; left: 90%; animation-delay: 0.5s; }
 .tech-icon:nth-child(3) { top: 60%; left: 90%; animation-delay: 1s; }
-.tech-icon:nth-child(4) { top: 90%; left: 45%; animation-delay: 1.5s; }
+.tech-icon:nth-child(4) { top: 80%; left: 45%; animation-delay: 1.5s; }
 .tech-icon:nth-child(5) { top: 60%; left: 0%; animation-delay: 2s; }
 .tech-icon:nth-child(6) { top: 30%; left: 0%; animation-delay: 2.5s; }
 .profile {
@@ -474,7 +474,7 @@ body {
     .menu-toggle.active .bar:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
     .menu-toggle.active .bar:nth-child(2) { opacity: 0; }
     .menu-toggle.active .bar:nth-child(3) { transform: rotate(-45deg) translate(5px, -5px); }
-    .hero { padding_top: 100px; padding: 100px 0; }
+    .hero { padding: 100px 0; width: 100%;}
     .hero-text h1 { font-size: 2.2rem; }
     .hero-text h2 { font-size: 1.4rem; }
     .hero-description { font-size: 1rem; }
@@ -485,21 +485,21 @@ body {
     .scroll-down {
         position: static; /* Remove absolute positioning on mobile */
         transform: none; /* Remove the centering transform */
-        margin-top: 50px;
+        margin-top: 80px;
         margin-bottom: 0;
         text-align: center; /* Add more space to ensure it’s below the icons */}
-    .about { padding_top: 100px; padding: 100px 0; }
+    .about { padding: 100px 0; width: 100%; }
     .about-content { flex-direction: column; }
     .about-image, .about-text { text-align: center; }
     .profile-img { width: 200px; height: 200px; }
-    .experience { padding_top: 100px; padding: 100px 0; }
+    .experience { padding: 100px 0; width: 100%; }
     .timeline-content { padding-left: 0; }
     .timeline-icon { position: static; margin: 0 auto 15px; }
     .timeline-content { text-align: center; }
-    .research { padding_top: 100px; padding: 100px 0; }
-    .education { padding_top: 100px; padding: 100px 0; }
+    .research { padding: 100px 0; width: 100%; }
+    .education { padding: 100px 0; width: 100%; }
     .education-card { flex-direction: column; text-align: center; }
-    .skills { padding_top: 100px; padding: 100px 0; }
-    .contact { padding_top: 100px; padding: 40px 0; }
+    .skills { padding: 100px 0; width: 100%;}
+    .contact { padding: 40px 0; width: 100%;}
     .contact-info { flex-direction: column; }
 }
