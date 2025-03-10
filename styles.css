@@ -138,7 +138,7 @@ body {
 }
 .primary-btn { background: #e94560; color: #fff; }
 .secondary-btn { background: transparent; border: 2px solid #e94560; color: #e94560; }
-.resume-btn { background: #00d4ff; color: #1a1a2e; }
+.resume-btn { background:  #e94560; color: #fff; }
 .btn:hover { transform: scale(1.05); }
 .btn i { margin-right: 8px; }
 .hero-image {
