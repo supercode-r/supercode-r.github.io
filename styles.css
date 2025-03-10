@@ -450,7 +450,7 @@ body {
 /* Responsive Design */
 @media (max-width: 768px) {
     .container {
-        max-width: 768px; /* Ensure full width on mobile */
+        width: 100%; /* Ensure full width on mobile */
         margin: 0 auto;
         padding: 0 20px; /* Increase padding for consistent spacing */
     }
@@ -475,7 +475,7 @@ body {
     .menu-toggle.active .bar:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
     .menu-toggle.active .bar:nth-child(2) { opacity: 0; }
     .menu-toggle.active .bar:nth-child(3) { transform: rotate(-45deg) translate(5px, -5px); }
-    .hero { padding: 100px 0; width: 100%; left: 0;}
+    .hero { padding: 100px 0; width: 100%;}
     .hero-text h1 { font-size: 2.2rem; }
     .hero-text h2 { font-size: 1.4rem; }
     .hero-description { font-size: 1rem; }
@@ -489,7 +489,7 @@ body {
         transform: none; /* Remove the centering transform */
         margin-top: 80px;
         text-align: center; /* Add more space to ensure it’s below the icons */}
-    .about { padding: 100px 0; width: 100%; }
+    .about { padding: 100px 0; width: 100%;  }
     .about-content { flex-direction: column; }
     .about-image, .about-text { text-align: center; }
     .profile-img { width: 200px; height: 200px; }
