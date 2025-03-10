@@ -477,19 +477,20 @@ body {
     .scroll-down {
         position: static; /* Remove absolute positioning on mobile */
         transform: none; /* Remove the centering transform */
-        margin-top: 30px; /* Add more space to ensure it’s below the icons */}
-    .about { padding: 40px 0; }
+        margin-top: 10px;
+        align-text: center; /* Add more space to ensure it’s below the icons */}
+    .about { padding_top: 100px; padding: 40px 0; }
     .about-content { flex-direction: column; }
     .about-image, .about-text { text-align: center; }
     .profile-img { width: 200px; height: 200px; }
-    .experience { padding: 40px 0; }
+    .experience { padding_top: 100px; padding: 40px 0; }
     .timeline-content { padding-left: 0; }
     .timeline-icon { position: static; margin: 0 auto 15px; }
     .timeline-content { text-align: center; }
-    .research { padding: 40px 0; }
-    .education { padding: 40px 0; }
+    .research { padding_top: 100px; padding: 40px 0; }
+    .education { padding_top: 100px; padding: 40px 0; }
     .education-card { flex-direction: column; text-align: center; }
-    .skills { padding: 40px 0; }
-    .contact { padding: 40px 0; }
+    .skills { padding_top: 100px; padding: 40px 0; }
+    .contact { padding_top: 100px; padding: 40px 0; }
     .contact-info { flex-direction: column; }
 }
