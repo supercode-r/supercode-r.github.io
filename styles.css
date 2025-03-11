@@ -455,13 +455,14 @@ body {
 }
 
 /* Responsive Design */
-@media (max-width: 390px) {
+@media (max-width: 690px) {
     .container {
         width: 100%; /* Ensure full width on mobile */
         margin: 0 auto;
         padding: 0 20px;/* Increase padding for consistent spacing */
+        overflow-x: hidden;
     }
-    .navbar .container { flex-wrap: wrap;  }
+    .navbar .container { flex-wrap: wrap; width: 100%;  }
     .nav-menu {
         display: none;
         position: static;
