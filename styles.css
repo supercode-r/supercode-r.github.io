@@ -101,6 +101,8 @@ body {
     display: flex;
     align-items: center;
     padding: 70px 0;
+    width: 100%;
+    overflow-x: hidden;
 }
 .hero-content {
     display: flex;
@@ -455,6 +457,11 @@ body {
         padding: 0 20px;
         box-sizing: border-box;
     }
+    body {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
     .navbar .container { flex-wrap: wrap; width: 100%; }
     .nav-menu {
         display: none;
@@ -490,18 +497,24 @@ body {
         transform: none; /* Remove the centering transform */
         margin-top: 80px;
         text-align: center; /* Add more space to ensure it’s below the icons */}
-    .about { padding: 100px 0; width: 100%;  }
+    
+    .about { padding: 100px 0; width: 100%; overflow-x: hidden; }
     .about-content { flex-direction: column; }
     .about-image, .about-text { text-align: center; }
     .profile-img { width: 200px; height: 200px; }
-    .experience { padding: 100px 0; width: 100%; }
+    
+    .experience { padding: 100px 0; width: 100%; overflow-x: hidden; }
     .timeline-content { padding-left: 0; }
     .timeline-icon { position: static; margin: 0 auto 15px; }
     .timeline-content { text-align: center; }
-    .research { padding: 100px 0; width: 100%; }
-    .education { padding: 100px 0; width: 100%; }
+    
+    .research { padding: 100px 0; width: 100%; overflow-x: hidden; }
+    
+    .education { padding: 100px 0; width: 100%; overflow-x: hidden; }
     .education-card { flex-direction: column; text-align: center; }
-    .skills { padding: 100px 0; width: 100%;}
-    .contact { padding: 40px 0; width: 100%;}
+    
+    .skills { padding: 100px 0; width: 100%; overflow-x: hidden; }
+    
+    .contact { padding: 40px 0; width: 100%; overflow-x: hidden; }
     .contact-info { flex-direction: column; }
 }
