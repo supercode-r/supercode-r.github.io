@@ -17,6 +17,8 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
+    width: 100%; /* Ensure container takes full width */
+    box-sizing: border-box; /* Include padding in width */
 }
 
 /* Preloader */
