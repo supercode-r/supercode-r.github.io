@@ -448,11 +448,11 @@ body {
 }
 
 /* Responsive Design */
-@media (max-width: 959px) {
+/* @media (max-width: 959px) {
     .container {
-        width: 100%; /* Ensure full width on mobile */
+        width: 100%; 
         margin: 0 auto;
-        padding: 0 20px;/* Increase padding for consistent spacing */
+        padding: 0 20px;
         box-sizing: border-box;
     }
     .navbar .container { flex-wrap: wrap; width: 100%; }
@@ -468,14 +468,73 @@ body {
     }
     .nav-menu.active { display: flex; }
     .nav-link {
-        font-size: 1.5rem; /* Increase font size for better readability */
+        font-size: 1.5rem; 
         padding: 15px 0;
-        padding-left: 25px;/* Add padding for bigger touch area */
+        padding-left: 25px;
     }
-    .menu-toggle { display: flex; width: 100%;}
+    .menu-toggle { display: flex; }
     .menu-toggle.active .bar:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
     .menu-toggle.active .bar:nth-child(2) { opacity: 0; }
-    .menu-toggle.active .bar:nth-child(3) { transform: rotate(-45deg) translate(5px, -5px); }
+    .menu-toggle.active .bar:nth-child(3) { transform: rotate(-45deg) translate(5px, -5px); } */
+
+/* Responsive Design */
+@media (max-width: 959px) {
+    .container {
+        width: 100%; /* Ensure full width on mobile */
+        margin: 0 auto;
+        padding: 0 20px; /* Increase padding for consistent spacing */
+        box-sizing: border-box;
+    }
+
+    .navbar {
+        overflow-x: hidden; /* Prevent horizontal overflow */
+    }
+
+    .navbar .container {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .nav-menu {
+        display: none;
+        position: static;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background: #1a1a2e;
+        flex-direction: column;
+        padding: 20px 0;
+        box-sizing: border-box; /* Ensure padding is included in width */
+    }
+
+    .nav-menu.active {
+        display: flex;
+    }
+
+    .nav-link {
+        font-size: 1.5rem; /* Increase font size for better readability */
+        padding: 15px 0;
+        padding-left: 20px; /* Reduce padding to match container’s padding and prevent overflow */
+        padding-right: 20px; /* Add right padding for symmetry */
+        box-sizing: border-box; /* Ensure padding is included in width */
+        width: 100%; /* Ensure nav-link takes full width of its container */
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+
+    .menu-toggle.active .bar:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+
+    .menu-toggle.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .menu-toggle.active .bar:nth-child(3) {
+        transform: rotate(-45deg) translate(5px, -5px);
+    }
     .hero { padding: 100px 0; width: 100%; overflow-x: hidden;}
     .hero-text h1 { font-size: 2.2rem; }
     .hero-text h2 { font-size: 1.4rem; }
