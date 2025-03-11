@@ -448,14 +448,14 @@ body {
 }
 
 /* Responsive Design */
-/* @media (max-width: 959px) {
+@media (max-width: 959px) {
     .container {
         width: 100%; 
         margin: 0 auto;
         padding: 0 20px;
         box-sizing: border-box;
     }
-    .navbar .container { flex-wrap: wrap; width: 100%; }
+    .navbar .container { flex-wrap: nowrap; width: 100%; }
     .nav-menu {
         display: none;
         position: static;
@@ -475,62 +475,7 @@ body {
     .menu-toggle { display: flex; }
     .menu-toggle.active .bar:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
     .menu-toggle.active .bar:nth-child(2) { opacity: 0; }
-    .menu-toggle.active .bar:nth-child(3) { transform: rotate(-45deg) translate(5px, -5px); } */
-
-/* Responsive Design */
-@media (max-width: 959px) {
-    .container {
-        width: 100%; /* Ensure full width on mobile */
-        margin: 0 auto;
-        padding: 0 20px; /* Increase padding for consistent spacing */
-        box-sizing: border-box;
-    }
-
-    .navbar .container {
-        flex-wrap: wrap;
-        width: 100%;
-    }
-
-    .nav-menu {
-        display: none;
-        position: absolute; /* Restore dropdown behavior */
-        top: 80px; /* Adjusted to account for navbar height (80px) */
-        left: 0;
-        width: 100%;
-        background: #1a1a2e;
-        flex-direction: column;
-        padding: 20px 0;
-        box-sizing: border-box; /* Include padding in width */
-        z-index: 1001; /* Ensure it stays above other content */
-    }
-
-    .nav-menu.active {
-        display: flex;
-    }
-
-    .nav-link {
-        font-size: 1.5rem; /* Increase font size for better readability */
-        padding: 15px 20px; /* Use symmetrical padding, adjusted to fit within container */
-        box-sizing: border-box; /* Include padding in width */
-        width: 100%; /* Ensure full width within nav-menu */
-        text-align: left; /* Align text to left for consistency */
-    }
-
-    .menu-toggle {
-        display: flex;
-    }
-
-    .menu-toggle.active .bar:nth-child(1) {
-        transform: rotate(45deg) translate(5px, 5px);
-    }
-
-    .menu-toggle.active .bar:nth-child(2) {
-        opacity: 0;
-    }
-
-    .menu-toggle.active .bar:nth-child(3) {
-        transform: rotate(-45deg) translate(5px, -5px);
-    }
+    .menu-toggle.active .bar:nth-child(3) { transform: rotate(-45deg) translate(5px, -5px); }
     .hero { padding: 100px 0; width: 100%; overflow-x: hidden;}
     .hero-text h1 { font-size: 2.2rem; }
     .hero-text h2 { font-size: 1.4rem; }
