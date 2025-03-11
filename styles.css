@@ -17,8 +17,6 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-    width: 100%; /* Ensure container takes full width */
-    box-sizing: border-box; /* Include padding in width */
 }
 
 /* Preloader */
@@ -452,9 +450,10 @@ body {
 /* Responsive Design */
 @media (max-width: 959px) {
     .container {
-        width: 100%; 
+        width: 100%; /* Ensure full width on mobile */
         margin: 0 auto;
-        padding: 0 20px;
+        padding: 0 20px;/* Increase padding for consistent spacing */
+        box-sizing: border-box;
     }
     .navbar .container { flex-wrap: wrap; width: 100%; }
     .nav-menu {
@@ -469,84 +468,40 @@ body {
     }
     .nav-menu.active { display: flex; }
     .nav-link {
-        font-size: 1.5rem; 
+        font-size: 1.5rem; /* Increase font size for better readability */
         padding: 15px 0;
-        padding-left: 25px;
+        padding-left: 25px;/* Add padding for bigger touch area */
     }
-    .menu-toggle { display: flex;  }
+    .menu-toggle { display: flex; }
     .menu-toggle.active .bar:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
     .menu-toggle.active .bar:nth-child(2) { opacity: 0; }
     .menu-toggle.active .bar:nth-child(3) { transform: rotate(-45deg) translate(5px, -5px); }
-    
     .hero { padding: 100px 0; width: 100%;}
-    .hero-content {
-        flex-direction: column; /* Stack vertically */
-        text-align: center;
-    }
-    .hero-text {
-        min-width: 100%; /* Fit within container */
-        padding: 0;
-    }
     .hero-text h1 { font-size: 2.2rem; }
     .hero-text h2 { font-size: 1.4rem; }
     .hero-description { font-size: 1rem; }
-    .hero-image { 
-        width: 100%; 
-        /*text-align: center;*/
-        max-width: 300px;
-        margin: 0 auto;
-    }
+    .hero-image { width: 100%; text-align: center; }
     .tech-orbit { width: 200px; height: 200px;}
     .tech-icon { font-size: 1.2rem; padding: 10px;  }
-    /* Fix tech-icon positioning to prevent overflow */
-    .tech-icon:nth-child(1) { top: 0; left: 50%; }
-    .tech-icon:nth-child(2) { top: 20%; right: 10%; }
-    .tech-icon:nth-child(3) { bottom: 20%; right: 10%; }
-    .tech-icon:nth-child(4) { bottom: 0; left: 50%; }
-    .tech-icon:nth-child(5) { bottom: 20%; left: 10%; }
-    .tech-icon:nth-child(6) { top: 20%; left: 10%; }
-    .profile {
-        font-size: 3.5rem;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%); /* Fixed transform */
-    }    
+    .profile { font-size: 3.5rem; }
     .profile .particle { width: 6px; height: 6px;  }
     .scroll-down {
-        position: static; 
-        transform: none; 
+        position: static; /* Remove absolute positioning on mobile */
+        transform: none; /* Remove the centering transform */
         margin-top: 80px;
-        text-align: center; }
-    
+        text-align: center; /* Add more space to ensure it’s below the icons */}
     .about { padding: 100px 0; width: 100%;  }
     .about-content { flex-direction: column; }
-    .about-image,
-    .about-text {
-        text-align: center;
-        flex: 0 0 100%; /* Ensure full width within container */
-        min-width: 0; /* Prevent overflow */
-    }    
+    .about-image, .about-text { text-align: center; }
     .profile-img { width: 200px; height: 200px; }
-    
     .experience { padding: 100px 0; width: 100%; }
-    .timeline {
-        max-width: 100%; /* Fit within viewport */
-        padding: 0 10px;
-    }    
     .timeline-content { padding-left: 0; }
     .timeline-icon { position: static; margin: 0 auto 15px; }
     .timeline-content { text-align: center; }
-    
     .research { padding: 100px 0; width: 100%; }
-    .projects-grid {
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Reduce min width to fit smaller screens */
-    }
-    
     .education { padding: 100px 0; width: 100%; }
     .education-card { flex-direction: column; text-align: center; }
-    
     .skills { padding: 100px 0; width: 100%;}
-    
     .contact { padding: 40px 0; width: 100%;}
     .contact-info { flex-direction: column; }
 }
