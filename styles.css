@@ -448,7 +448,7 @@ body {
 }
 
 /* Responsive Design */
-@media (max-width: 959px) {
+@media (max-width: 390px) {
     .container {
         width: 100%; /* Ensure full width on mobile */
         margin: 0 auto;
