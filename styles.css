@@ -5,6 +5,13 @@
     box-sizing: border-box;
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.6;
@@ -479,11 +486,11 @@ body {
     .hero-text h1 { font-size: 2.2rem; }
     .hero-text h2 { font-size: 1.4rem; }
     .hero-description { font-size: 1rem; }
-    /*.hero-image { width: 100%; text-align: center; }
+    .hero-image { width: 100%; text-align: center; }
     .tech-orbit { width: 200px; height: 200px;}
     .tech-icon { font-size: 1.2rem; padding: 10px;  }
     .profile { font-size: 3.5rem; }
-    .profile .particle { width: 6px; height: 6px;  }*/
+    .profile .particle { width: 6px; height: 6px;  }
     .scroll-down {
         position: static; /* Remove absolute positioning on mobile */
         transform: none; /* Remove the centering transform */
