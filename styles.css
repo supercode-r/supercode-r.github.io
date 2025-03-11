@@ -455,7 +455,7 @@ body {
         padding: 0 20px;
         box-sizing: border-box;
     }
-    .navbar .container { flex-wrap: nowrap; width: 100%; }
+    .navbar .container { flex-wrap: wrap; width: 100%; }
     .nav-menu {
         display: none;
         position: static;
