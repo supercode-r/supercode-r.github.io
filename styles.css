@@ -483,6 +483,7 @@ body {
     .menu-toggle.active .bar:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
     .menu-toggle.active .bar:nth-child(2) { opacity: 0; }
     .menu-toggle.active .bar:nth-child(3) { transform: rotate(-45deg) translate(5px, -5px); }
+    
     .hero { padding: 100px 0; width: 100%; overflow-x: hidden;}
     .hero-text h1 { font-size: 2.2rem; }
     .hero-text h2 { font-size: 1.4rem; }
@@ -517,4 +518,46 @@ body {
     
     .contact { padding: 40px 0; width: 100%; overflow-x: hidden; }
     .contact-info { flex-direction: column; }
+
+    .chatbase-container {
+        width: 85vw; /* Smaller screens get proportionally sized widget */
+        bottom: 10px;
+        right: 10px;
+    }
+}
+/* Styles for Chatbase widget */
+.chatbase-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  max-height: 50vh; /* Limits height to 50% of viewport */
+  max-width: 90vw; /* Responsive width */
+  width: 400px; /* Default width */
+}
+
+/* Ensure the chat widget doesn't overlay important navigation */
+.chatbase-widget {
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  max-height: 100%;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+/* Style for the chat button when minimized */
+.chatbase-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+/* Hide the Chatbase footer/attribution */
+[powered-by="Chatbase.co"],
+.chatbase-powered-by,
+.chatbase-footer,
+[data-testid="chat-footer"],
+a[href*="chatbase.co"] {
+  display: none !important;
 }
