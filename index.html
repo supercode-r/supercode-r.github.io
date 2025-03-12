@@ -567,6 +567,23 @@
             window.addEventListener("load",onLoad)
           }
         })();
+        document.addEventListener('DOMContentLoaded', function() {
+          // Run repeatedly to catch the element when it's added to DOM
+          const hideFooter = setInterval(function() {
+            // Look for elements containing "Chatbase.co" text
+            const elements = document.querySelectorAll('*');
+            for (let elem of elements) {
+              if (elem.innerText && elem.innerText.includes('Chatbase.co')) {
+                // Hide the parent element that contains the footer
+                elem.closest('.flex') ? elem.closest('.flex').style.display = 'none' : null;
+                elem.parentElement ? elem.parentElement.style.display = 'none' : null;
+                elem.style.display = 'none';
+                clearInterval(hideFooter);
+                break;
+              }
+            }
+          }, 1000);
+        });
 
     
         // Navbar Toggle
