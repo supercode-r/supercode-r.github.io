@@ -296,7 +296,7 @@ body {
 .timeline-list i { 
     margin-right: 10px; 
     color: #e94560;
-    margin-top: 0.1em; /* Aligns with first line baseline */
+    margin-top: 0.25em; /* Aligns with first line baseline */
     flex-shrink: 0;
     width: 16px;
     font-size: 14px; /* Slightly smaller for better proportion */
