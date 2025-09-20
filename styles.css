@@ -77,31 +77,9 @@ body {
     color: #fff;
     text-decoration: none;
     font-weight: 500;
-    padding: 8px 16px;
-    border-radius: 25px;
-    transition: all 0.3s ease;
-    position: relative;
+    transition: color 0.3s;
 }
-.nav-link:hover { 
-    color: #e94560;
-    background-color: rgba(233, 69, 96, 0.1);
-}
-.nav-link.active { 
-    color: #e94560;
-    background-color: rgba(233, 69, 96, 0.2);
-    font-weight: 600;
-}
-.nav-link.active::after {
-    content: '';
-    position: absolute;
-    bottom: -2px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 30px;
-    height: 2px;
-    background-color: #e94560;
-    border-radius: 2px;
-}
+.nav-link:hover, .nav-link.active { color: #e94560; }
 .menu-toggle {
     display: none;
     flex-direction: column;
