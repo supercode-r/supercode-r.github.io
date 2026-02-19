@@ -1,0 +1,464 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Divyesh Jagetia | Biodata</title>
+  <meta name="description" content="Biodata for Divyesh Jagetia" />
+  <link rel="canonical" href="https://www.divyeshjagetia.com/biodata" />
+
+  <!-- If your main site has a global stylesheet, keep this.
+       Otherwise, you can remove it and rely on the CSS below. -->
+  <!-- <link rel="stylesheet" href="/assets/css/main.css" /> -->
+
+  <style>
+    :root{
+      --bg: #0b1220;
+      --card: rgba(255,255,255,.06);
+      --card2: rgba(255,255,255,.08);
+      --text: rgba(255,255,255,.92);
+      --muted: rgba(255,255,255,.72);
+      --muted2: rgba(255,255,255,.60);
+      --border: rgba(255,255,255,.12);
+      --accent: #7dd3fc;
+      --accent2:#a78bfa;
+      --shadow: 0 18px 55px rgba(0,0,0,.35);
+      --radius: 18px;
+      --radius2: 14px;
+      --max: 1100px;
+    }
+
+    *{ box-sizing:border-box; }
+    body{
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+      color: var(--text);
+      background:
+        radial-gradient(900px 600px at 20% 10%, rgba(125,211,252,.18), transparent 60%),
+        radial-gradient(900px 600px at 80% 20%, rgba(167,139,250,.16), transparent 55%),
+        radial-gradient(900px 700px at 50% 95%, rgba(34,197,94,.10), transparent 55%),
+        var(--bg);
+      line-height: 1.55;
+    }
+
+    a{ color: inherit; text-decoration: none; }
+    a:hover{ text-decoration: underline; }
+
+    .wrap{
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 36px 18px 70px;
+    }
+
+    /* Top bar (simple; swap with your site header include if you have one) */
+    .topbar{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap: 14px;
+      padding: 14px 16px;
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,.03);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(10px);
+    }
+    .brand{
+      display:flex;
+      align-items:center;
+      gap:12px;
+      min-width: 220px;
+    }
+    .dot{
+      width: 12px;
+      height: 12px;
+      border-radius: 999px;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      box-shadow: 0 0 0 6px rgba(125,211,252,.12);
+      flex: 0 0 auto;
+    }
+    .brand h1{
+      font-size: 14px;
+      margin: 0;
+      letter-spacing: .2px;
+    }
+    .navlinks{
+      display:flex;
+      gap: 14px;
+      flex-wrap: wrap;
+      justify-content:flex-end;
+    }
+    .navlinks a{
+      font-size: 13px;
+      color: var(--muted);
+      padding: 8px 10px;
+      border-radius: 10px;
+      border: 1px solid transparent;
+    }
+    .navlinks a:hover{
+      color: var(--text);
+      border-color: var(--border);
+      text-decoration:none;
+      background: rgba(255,255,255,.03);
+    }
+
+    .hero{
+      display:grid;
+      grid-template-columns: 1.2fr .8fr;
+      gap: 18px;
+      margin-top: 18px;
+    }
+    @media (max-width: 900px){
+      .hero{ grid-template-columns: 1fr; }
+      .navlinks{ justify-content:flex-start; }
+    }
+
+    .card{
+      border: 1px solid var(--border);
+      background: var(--card);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(10px);
+      overflow:hidden;
+    }
+
+    .cardPad{ padding: 18px; }
+
+    .titleRow{
+      display:flex;
+      align-items:flex-start;
+      justify-content:space-between;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+
+    .nameBlock h2{
+      margin: 0;
+      font-size: 26px;
+      letter-spacing: .2px;
+    }
+    .meta{
+      margin-top: 6px;
+      color: var(--muted);
+      font-size: 14px;
+      display:flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .pill{
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,.03);
+      padding: 6px 10px;
+      border-radius: 999px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .ctaRow{
+      display:flex;
+      gap: 10px;
+      align-items:center;
+      flex-wrap: wrap;
+      margin-top: 14px;
+    }
+    .btn{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      gap: 10px;
+      padding: 11px 14px;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,.04);
+      color: var(--text);
+      font-weight: 600;
+      font-size: 14px;
+      cursor:pointer;
+      user-select:none;
+    }
+    .btn:hover{
+      background: rgba(255,255,255,.07);
+      text-decoration:none;
+    }
+    .btnPrimary{
+      border-color: rgba(125,211,252,.35);
+      background: linear-gradient(135deg, rgba(125,211,252,.18), rgba(167,139,250,.14));
+    }
+    .btnPrimary:hover{
+      background: linear-gradient(135deg, rgba(125,211,252,.25), rgba(167,139,250,.18));
+    }
+    .btn svg{ width: 16px; height: 16px; opacity: .9; }
+
+    .gallery{
+      padding: 12px;
+    }
+    .grid{
+      display:grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+    }
+    @media (max-width: 520px){
+      .grid{ grid-template-columns: 1fr; }
+    }
+    .ph{
+      position:relative;
+      border-radius: 14px;
+      overflow:hidden;
+      border: 1px solid var(--border);
+      background: rgba(0,0,0,.15);
+      min-height: 150px;
+    }
+    .ph img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display:block;
+      transform: scale(1.02);
+    }
+    .ph::after{
+      content:"";
+      position:absolute;
+      inset:0;
+      background: linear-gradient(180deg, transparent 55%, rgba(0,0,0,.35));
+      pointer-events:none;
+    }
+
+    .sectionGrid{
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+      margin-top: 18px;
+    }
+    @media (max-width: 900px){
+      .sectionGrid{ grid-template-columns: 1fr; }
+    }
+
+    .sectionTitle{
+      font-size: 14px;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      color: var(--muted2);
+      margin: 0 0 12px;
+    }
+
+    .para{
+      color: var(--text);
+      margin: 0 0 12px;
+    }
+    .para:last-child{ margin-bottom: 0; }
+
+    .kv{
+      display:grid;
+      grid-template-columns: 150px 1fr;
+      gap: 10px 14px;
+      padding: 6px 0 0;
+    }
+    @media (max-width: 520px){
+      .kv{ grid-template-columns: 1fr; }
+    }
+    .k{
+      color: var(--muted2);
+      font-weight: 600;
+      font-size: 13px;
+      letter-spacing: .2px;
+    }
+    .v{
+      color: var(--text);
+      font-size: 14px;
+    }
+
+    .divider{
+      height:1px;
+      background: var(--border);
+      margin: 14px 0;
+    }
+
+    .foot{
+      margin-top: 22px;
+      color: var(--muted2);
+      font-size: 12.5px;
+      text-align:center;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <header class="topbar" aria-label="Site header">
+      <div class="brand">
+        <span class="dot" aria-hidden="true"></span>
+        <h1><a href="https://www.divyeshjagetia.com/">divyeshjagetia.com</a></h1>
+      </div>
+      <nav class="navlinks" aria-label="Primary navigation">
+        <a href="https://www.divyeshjagetia.com/">Home</a>
+        <a href="https://www.divyeshjagetia.com/biodata" aria-current="page">Biodata</a>
+        <a href="https://www.divyeshjagetia.com/#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-label="Biodata hero">
+        <div class="card">
+          <div class="cardPad">
+            <div class="titleRow">
+              <div class="nameBlock">
+                <h2>Divyesh Jagetia</h2>
+                <div class="meta">
+                  <span class="pill">29 years old</span>
+                  <span class="pill">Boston, Massachusetts, United States</span>
+                </div>
+              </div>
+
+              <div class="ctaRow">
+                <a class="btn btnPrimary" href="https://www.divyeshjagetia.com/biodata.pdf" target="_self" rel="noopener">
+                  <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                    <path d="M12 3v10m0 0 4-4m-4 4-4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  </svg>
+                  Download biodata (PDF)
+                </a>
+                <a class="btn" href="tel:+16179706863">
+                  <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.08 4.18 2 2 0 0 1 4.06 2h3a2 2 0 0 1 2 1.72c.12.86.31 1.7.57 2.5a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.58-1.09a2 2 0 0 1 2.11-.45c.8.26 1.64.45 2.5.57A2 2 0 0 1 22 16.92Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  Call
+                </a>
+              </div>
+            </div>
+
+            <div class="divider"></div>
+
+            <p class="para">
+              For the past six years, Boston has been my home, a city I chose as the ideal place to pursue my post graduation
+              and propel my career in the field of Machine Learning. Through dedication and relentless effort, I am proud to
+              have built my career from the ground up, now serving as a full-time Machine Learning Research Scientist in a
+              Fortune 100 organization, where I lead a team of talented engineers.
+            </p>
+            <p class="para">
+              When I am not immersed in my professional endeavors, I indulge in my passion for travel and commit to a lifestyle
+              centered around health and well-being. I enjoy playing tennis, pickleball, chess and golf, and I frequently explore
+              the great outdoors through mountain biking or hiking.
+            </p>
+            <p class="para">
+              I currently reside in Boston with my brother and sister-in-law, creating a warm and supportive household.
+              I am known for my sense of humor, caring nature, ambition, intelligence, loyalty, and sense of responsibility.
+              Above all, I believe in giving, always striving to enrich the lives of those around me without any expectation of returns.
+              Energetic and affectionate.
+            </p>
+          </div>
+        </div>
+
+        <aside class="card" aria-label="Profile photos">
+          <div class="gallery">
+            <div class="grid">
+              <!-- Put these five image files in the same folder as this HTML (recommended),
+                   or adjust the src paths to match your site structure. -->
+              <figure class="ph"><img src="/biodata/img/profile-1.jpg" alt="Divyesh at a coastal lighthouse" loading="lazy"></figure>
+              <figure class="ph"><img src="/biodata/img/profile-2.jpg" alt="Divyesh at a scenic viewpoint" loading="lazy"></figure>
+              <figure class="ph"><img src="/biodata/img/profile-3.jpg" alt="Divyesh in traditional attire with a turban" loading="lazy"></figure>
+              <figure class="ph"><img src="/biodata/img/profile-4.jpg" alt="Divyesh in a suit outdoors" loading="lazy"></figure>
+              <figure class="ph"><img src="/biodata/img/profile-5.jpg" alt="Divyesh in traditional kurta indoors" loading="lazy"></figure>
+            </div>
+
+            <div class="foot" style="margin-top:10px;">
+              Tip: upload the images as<br>
+              <span style="color:var(--muted);">/biodata/img/profile-1.jpg</span> … <span style="color:var(--muted);">profile-5.jpg</span>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <section class="sectionGrid" aria-label="Biodata details">
+        <div class="card">
+          <div class="cardPad">
+            <h3 class="sectionTitle">Personal Info</h3>
+            <div class="kv" role="list">
+              <div class="k" role="listitem">Height</div><div class="v">5'10"</div>
+              <div class="k" role="listitem">Nationality</div><div class="v">NRI</div>
+              <div class="k" role="listitem">Marital Status</div><div class="v">Never Married</div>
+            </div>
+
+            <div class="divider"></div>
+
+            <h3 class="sectionTitle">Education and Profession</h3>
+            <div class="kv" role="list">
+              <div class="k" role="listitem">Education</div>
+              <div class="v">Master of Science, Computer Science (Boston University)</div>
+
+              <div class="k" role="listitem">Profession</div>
+              <div class="v">
+                Machine Learning Research Scientist at Arrow Electronics<br>
+                <span style="color:var(--muted2); font-size:13px;">Read more at <a href="https://www.divyeshjagetia.com/" style="color:var(--accent);">www.divyeshjagetia.com</a></span>
+              </div>
+            </div>
+
+            <div class="divider"></div>
+
+            <h3 class="sectionTitle">Contact</h3>
+            <div class="kv" role="list">
+              <div class="k" role="listitem">Phone</div>
+              <div class="v"><a href="tel:+16179706863" style="color:var(--accent);">+1 (617) 970-6863</a></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="cardPad">
+            <h3 class="sectionTitle">Looking For</h3>
+            <p class="para">
+              In seeking a life partner, I am drawn to someone who embodies a harmonious blend of qualities that reflect both strength
+              of character and depth of heart. She should be fit, embracing a healthy and active lifestyle that complements my own.
+              Ambitious, with a drive to achieve her goals, she must be equally caring, showing genuine warmth and compassion in her
+              interactions with others. Loyalty is paramount, as I value a steadfast commitment to our relationship and the shared journey
+              we would undertake.
+            </p>
+            <p class="para">
+              I am looking for someone who is both family-oriented and career-oriented, able to balance her professional aspirations with
+              a deep dedication to her loved ones. Responsibility and confidence are traits I admire, as they reflect a maturity and
+              self-assurance that are essential in navigating life's challenges together. Lastly, I am captivated by a sense of adventure,
+              a willingness to explore new horizons, and a passion for embracing the richness of life in all its forms. Such a partner would
+              not only complement my own values and aspirations but would also enhance the shared experiences that make life truly meaningful.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="sectionGrid" aria-label="Family section">
+        <div class="card" style="grid-column: 1 / -1;">
+          <div class="cardPad">
+            <h3 class="sectionTitle">About My Family</h3>
+            <p class="para">
+              Introducing the most esteemed and cherished family of the Maheshwari community. My revered grandfather, Shankarlal ji Jagetia,
+              who has reached the remarkable age of 100, stands as the cornerstone of our family's enduring values. My mother, Meenakshi Jagetia,
+              a devoted homemaker, gracefully balances her responsibilities while also leading and organizing events for our local Maheshwari community.
+              My father, Dinesh Jagetia, is a successful businessman, managing ventures across multiple domains.
+            </p>
+            <p class="para">
+              I am the youngest of three sons blessed to our parents. My elder brothers, Vaibhav Jagetia and Aishwary Jagetia, are both married and have
+              well established lives abroad, residing in Melbourne, Australia, and Boston, USA, respectively. My oldest sister-in-law, Pragati Jagetia,
+              brings the essence of fitness and well-being into our family, while also excelling in her professional career at a distinguished organization
+              in Melbourne. My other sister-in-law, Sanjana Jagetia, enriches our family with her culinary expertise, creating exquisite and delectable dishes
+              while serving as a full-time chef in Boston.
+            </p>
+            <p class="para">
+              Though our family is spread across the globe, with members living in various corners of the world, we remain a close-knit unit, bound by love and
+              a deep sense of care for one another as if we were all under the same roof. Our family upholds the highest values and eagerly anticipates welcoming
+              someone who can further enhance and continue our cherished bond for future generations. I am also blessed with 23 first cousins, further testament
+              to our expansive and loving family network.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <p class="foot">
+        © <span id="year"></span> Divyesh Jagetia · <a href="https://www.divyeshjagetia.com/">divyeshjagetia.com</a>
+      </p>
+    </main>
+  </div>
+
+  <script>
+    // Keep it tiny and non-intrusive
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
