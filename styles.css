@@ -323,6 +323,7 @@ body {
     background-position: center;
     position: relative;
 }
+.egtb-bg { background-image: url('/egtb.jpg'); }
 .autonomous-driving-bg { background-image: url('/autonomous-driving.jpg'); }
 .nlp-bg { background-image: url('/nlp-syntax.jpg'); }
 .distributed-systems-bg { background-image: url('/distributed-systems.jpg'); }
